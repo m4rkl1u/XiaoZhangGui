@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="fill_parent"
+  android:background="@drawable/back_teng">
+  <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:background="@drawable/gray"
+        android:paddingTop="5dip">
+	<Button 
+  		android:id="@+id/cancel"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_centerHorizontal="true"
+  		android:layout_alignParentLeft="true"
+  		android:text="取消"/>
+  	<TextView
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_centerInParent="true" 		
+  		android:text="小掌柜"
+  		android:textColor="#000000"
+  		android:textSize="20dip"></TextView>
+  	<Button
+  		android:id="@+id/ok"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_centerHorizontal="true"
+  		android:layout_alignParentRight="true"
+  		android:text="确定"/>
+  	</RelativeLayout>
+	<ListView 
+  		android:id="@android:id/list"
+  		android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent"
+    	android:drawSelectorOnTop="false"/>
+    <Button
+    	android:id="@+id/autodo"
+    	android:layout_width="250px"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:textSize="23dip"
+    	android:text="轻松完成"
+    	android:visibility="invisible"/><!-- to do,add zxing -->
+</LinearLayout>

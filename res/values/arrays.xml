@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="items">		       
+		<item>衣服饰品</item>		       
+		<item>食品酒水</item>		       
+		<item>居家物业</item>		       
+		<item>行车交通</item>		       
+		<item>交流通讯</item>
+		<item>休闲娱乐</item>
+		<item>学习进修</item>		       
+		<item>人情往来</item>		       
+		<item>医疗保险</item>
+		<item>金融保险</item>		       
+		<item>其他杂项</item> 
+	</array>
+</resources>

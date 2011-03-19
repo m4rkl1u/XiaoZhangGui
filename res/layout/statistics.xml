@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/back_teng_stat">
+  <RelativeLayout
+	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:orientation="horizontal">
+  	<Button
+  		android:id="@+id/stat_pre"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="上一个"
+  		style="?android:attr/buttonStyleSmall"
+  		android:layout_alignParentLeft="true"/>
+  	<com.android.licai.view.StatView
+ 		android:id="@+id/statView"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_centerHorizontal="true"/>
+  	<Button
+  		android:id="@+id/stat_nxt"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="下一个"
+  		style="?android:attr/buttonStyleSmall"
+  		android:layout_alignParentRight="true"/>
+  </RelativeLayout>
+  <TextView
+  	android:id="@+id/date"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="2000年2月2日"
+  	android:gravity="center_horizontal"/>
+  <TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="分类统计"
+  	android:gravity="center_horizontal"/>
+  <RelativeLayout
+	android:layout_width="fill_parent" 
+	android:layout_height="0dip"
+    android:layout_weight="1" >
+  	<ListView
+  		android:id="@+id/listLeft"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:drawSelectorOnTop="false"/>
+  	<TextView android:id="@+id/empty" 
+  		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:textSize="25dip"
+		android:gravity="center"/>	
+  	</RelativeLayout>
+</LinearLayout>

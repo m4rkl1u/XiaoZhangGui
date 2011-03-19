@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.licai"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Licai"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+        	android:name=".Statistics"
+        	android:label="@string/app_name"
+    		android:theme="@android:style/Theme.NoTitleBar">
+    	</activity>
+    	<activity
+    		android:name=".NumInput"
+            android:label="@string/app_name">
+    	</activity>
+    	<activity
+    		android:name=".Manage"
+    		android:label="@string/app_name"
+    		android:theme="@android:style/Theme.NoTitleBar">
+    	</activity>
+    	
+    	<activity
+    		android:name=".About"
+    		android:label="@string/app_name">
+    	</activity>
+    	
+    	<activity
+    		android:name=".AddNew"
+    		android:label="@string/app_name"
+    		android:theme="@android:style/Theme.NoTitleBar">
+    	</activity>
+    	
+    	<activity
+    		android:name=".ListItems"
+       		android:label="@string/app_name"
+            android:theme="@style/Translucent">
+    	</activity>
+    	
+    	<activity
+    		android:name=".AddrEdit"
+    		android:label="@string/app_name"
+    		android:theme="@android:style/Theme.NoTitleBar">
+    	</activity>
+    	
+    	<activity
+    		android:name=".ListAll"
+    		android:label="@string/app_name"
+    		android:theme="@android:style/Theme.NoTitleBar">
+    	</activity>
+    	<activity
+    		android:name=".ExchangeRate"
+    		android:label="@string/app_name"
+    		android:theme="@android:style/Theme.NoTitleBar">
+    	</activity>
+	</application>
+    <uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_GPS"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest> 

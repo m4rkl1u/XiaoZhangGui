@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Licai!</string>
+    <string name="app_name">小掌柜</string>
+    <string name="add_one">添一笔</string>
+    <string name="empty">空</string>
+    <string name="addrtext">请编辑下面地址</string>
+    <string name="getCurve">曲线图</string>
+    <string name="pieChart">饼状图</string>
+    <string name="weekStat">每周统计</string>
+    <string name="monthStat">每月统计</string>
+    <string name="yearStat">每年统计</string>
+    <string name="alert_dialog_title">"警告"
+    </string>
+    <string name="alert_dialog_content">无法连接互联网\n建议连接打开互联网，以获得更好的体验</string>
+    <string name="alert_dialog_ok">确定</string>
+</resources>
